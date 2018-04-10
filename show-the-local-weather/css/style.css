@@ -1,0 +1,102 @@
+*{
+  font-size:18px;
+}
+body{
+  background-color: #FFE4B5;
+}
+.container{
+  background-color: white;
+  border:1px solid #AEEEEE;
+  height:100px;
+  width:100%;
+}
+img {
+  margin:-15px auto;
+}
+h2 {
+  font-size:28px;
+  display: inline-block;
+  color: #ee7942;
+  vertical-align:middle;
+}
+h3{
+  text-align: center;
+  color:#8B6969;
+  font-weight: bold;
+}
+#search{
+  margin:30px auto;
+  font-size:20px;
+} 
+p{
+  display:inline;
+}
+main{
+  width:60%;
+  margin:50px auto;
+}
+#localWeather{
+  background-color: #8B6969;
+  opacity: 0.5;
+  padding-top: 10px;
+  border:1px solid #8B6969;
+  height:170px;
+  border-radius:5px;
+  color:white;
+}
+#image{
+  width:150px;
+  height:150px;
+  margin:5px 30px;
+  opacity: 1;
+}
+#today{
+    display:inline;
+  }
+  #text{
+    width:70%;
+    float:right;
+  }
+  #other{
+    margin-top: 20px;
+    font-size:16px;
+  }
+  #other p{
+    margin:18px;
+  }
+.border{
+  border-right:1px solid;
+}
+#today li{
+  display: inline;
+   list-style:none; 
+  padding:10px;
+  font-size: 22px;
+}
+#predict{
+  margin:40px 0;
+  padding-top: 10px;
+  background-color: #F4A460;
+}
+#predict ul{
+  display:flex;
+  display:-webkit-flex;
+  flex-flow:row nowrap;
+  justify-content:space-around;
+  align-items: center;
+  padding:20px 0;
+
+}
+.future{
+  list-style: none;
+  width:100px;
+  border:1px solid #8B6969;
+  background-color: #8B6969;
+  color:#FFFF00;
+  opacity: 0.5;
+}
+.future p{
+  display: block;
+  text-align: center;
+  font-size: 16px;
+}
