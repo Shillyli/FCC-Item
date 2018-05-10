@@ -1,0 +1,39 @@
+body{
+  background-color:#F4A460;
+}
+.calculator{
+  text-align:center;
+  margin:10px auto 10px auto;
+  background-color:#EEB4B4;
+  width:300px;
+  height:350px;
+  padding:5px;
+  margin:70px auto; 
+  border-radius:8px;
+}
+p{
+  font-family:Droid Serif;
+  font-weight:800;
+  color:white;
+  font-size:14px;
+  margin:7px;
+}
+#input{
+  width:250px;
+  height:25px;
+  text-align:right;
+  background-color:#EEE8AA;
+  border:none;
+}
+table{
+  margin:5px auto 5px auto;
+  width:250px;
+}
+button{
+  width:60px;
+  height:50px;
+  font-size:16px;
+  color:#EEB4B4;
+  background-color:white;
+  border:1px solid;
+}
