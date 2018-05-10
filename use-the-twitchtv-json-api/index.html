@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Use the Twitchtv JSON API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div id='container'>
+<div class='row header' >
+  <h1>Twitch-TV直播</h1>
+  <div class='menu'>
+    <div class='selector active' id='all'>
+    <div class='circle' style='color:#778899;background-color:#778899'></div><p>所有直播</p>
+  </div>
+    <div class='selector' id='online'>
+      <div class='circle' style='color:#556B2F;background-color:#556B2F'></div><p>直播中</p>
+  </div>
+    <div class='selector' id='offline'>
+      <div class='circle' style='color:#8B6969;background-color:#8B6969'></div><p>离线中</p>
+  </div>
+  </div>
+  </div>
+  <main>
+    <ul id='channel'>
+<!--       <li class='list row'><img src='#' />
+        <div class='info'>
+          <h3>Name <span>直播状态</span></h3>       
+        <p>直播内容</p>
+        <p>观看人数</p>
+        </div>
+          </li> -->
+      </ul>
+  </main>
+  <footer class='row' id='footer'>
+  </footer>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

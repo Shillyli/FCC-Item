@@ -1,0 +1,108 @@
+body{
+  background-color:#CDAA7D;
+}
+#container{
+  margin:50px auto;
+  max-width:700px;
+}
+.row{
+  height:80px;
+}
+.header{
+  position:relative;
+  background-color:#778899;
+  padding:0;
+}
+h1{
+  font-family:'STHeiti';
+  font-style:italic;
+  padding:20px 25px;
+  color:white;
+}
+.menu{
+  position:absolute;
+  bottom:10px;
+  right:0px;
+  font-size:0.8em;
+  margin:0;
+}
+.selector{
+  height:20px;
+  line-height:22px;
+  background-color:#BEBEBE;
+  width:20px;
+  padding:0 5px;
+  overflow:hidden;
+  float:right;
+  clear:right;
+  transition: width 0.4s linear;
+}
+.menu .active, .menu .selector:hover {
+  width: 75px !important;
+  transition: width 0.4s linear;
+  cursor: pointer;
+}
+.circle{
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  border:1px solid;
+  float:left;
+  margin:5px 5px 5px 0;
+}
+.menu p{
+  float:right;
+  margin:0;
+  font-family:'Microsoft YaHei';
+  font-weight:bold;
+}
+#channel{
+  max-width:730px;
+ list-style:none;
+  padding:0;
+  margin:0;
+  height:340px;
+  overflow:auto;
+}
+img{
+  height:70px;
+  width:70px;
+  border-radius:50%;
+  border:5px solid #CDAA7D;
+  float:left;
+  
+}
+.info{
+  margin:-20px 120px;
+  padding:0;
+}
+.info h3{
+  margin-top:25px;
+}
+.info a{
+  color:#000;
+  text-decoration:none;
+}
+.info a:hover{
+  text-decoration:underline;
+}
+.info p{
+  margin:2px;
+}
+.info span{
+  float:right;
+  font-size:22px;
+  margin:20px;
+  font-family:STKaiti;
+}
+.list{
+  background-color:#F5DEB3;
+  margin:2px 0;
+  float:left;
+  width:100%;
+}
+#footer{
+  height:10px;
+  background-color:#778899;
+  margin-bottom:40px;
+}
