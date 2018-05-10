@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Build a Personal Portfolio Webpage</title>
+
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header class="navbar navbar-default navbar-fixed-top" id="banner">
+  <div class="container">
+    <a class="navbar-brand" href="#top">MyPage</a>
+    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">展开导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+        </button>
+    <nav class="collapse navbar-collapse" id="navbar" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li class='active'><a class="title" href="#top">个人信息</a></li>
+        <li><a class="title" href="#portfolio">作品展示</a></li>
+        <li><a class="title" href="#activity">校园活动</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+</div>
+<!--导航栏结束-->
+<a id="top" name="home"></a>
+<main>
+  <header>
+    <div class="intro-text">
+      <p><strong>李鑫洁</strong>，1994年白羊座小阿姨一枚，2016年于北京交通大学获光信息科学与技术专业学士学位，目前已在电子科技大学信息与通信工程学院光学工程饶云江团队埋头苦干两年<strong>（研二）</strong> 。爱小说爱舞蹈爱旅游，经鉴定，资深吃货无疑。</p>
+      <hr class="star-bright" /><span class="skills">静若处子，动如脱兔的前端初学者前来报到！</span>
+    </div>
+    <img src='image/my-picture.jpg' alt='my photo' />
+  </header>
+  <section id='portfolio'>
+    <h2>作品展示</h2>
+    <hr class="star-dark" />
+    <ul class="grid">
+      <li><a href='https://codepen.io/Shillyli/full/GyyqXy/' target='windName' class='btn btn-default'><img src="image/001.png" alt="Tribute Page" /></a></li>
+      <li><a href='https://codepen.io/Shillyli/full/aEaEyR/' target='windName' class='btn btn-default'><img src="image/002.png" alt="Random Quate Machine"/></a></li>
+      <li><a href='https://codepen.io/Shillyli/full/rdOvpG/' target='windName' class='btn btn-default'><img src="image/003.png" alt="JS Caculator"/></a></li>
+      <li><a href='https://codepen.io/Shillyli/full/oqjrxz/' target='windName' class='btn btn-default'><img src="image/004.png" alt="Pomodoro Timer"/></a></li>
+      <li><a href='#' class="another">更多...</a></li>
+    </ul>
+  </section>
+  <section id='activity'>
+    <h2>校园活动</h2>
+    <hr class="star-dark" />
+    <div class="banner" id='b04'>
+      <ul>
+        <li class="slider-item"><img src="image/01.JPG" alt=""  class='img-responsive' /><span class="slider-title"><em>大二期间参加“院际杯”高校体育舞蹈大赛</em></span></li>
+        <li class="slider-item"><img src="image/02.JPG" alt="" class='img-responsive' /><span class="slider-title"><em>大三入选参加学校举办的团校精英训练营，每个学院两个名额。</em></span></li>
+        <li class="slider-item"><img src="image/03.jpg" alt="" class='img-responsive' /><span class="slider-title"><em>大三任科协主席时期部长主席团合影</em></span></li>
+        <li class="slider-item"><img src="image/04.JPG" alt="" class='img-responsive' /><span class='slider-title'><em>本科任科协主席期间负责带队赴安徽暑期社会实践。</em></span></li>
+      </ul>
+      <div class="progress"></div>
+        <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="image/arrowl.png" alt="prev" width="20" height="35"></a>
+        <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="image/arrowr.png" alt="next" width="20" height="37"></a>
+      </div>
+</main>
+<footer>
+  <div id='contact'>
+    <h2>contact me</h2>
+    <ul class='contact'>
+      <li><i class="fa fa-phone"></i>:13568920048</li>
+      <li><i class="fa fa-weixin"></i>:lxj1994222</li>
+      <li><i class="fa fa-qq"></i>:529772565</li>
+      <li><i class="fa fa-envelope"></i>:somnuslxj@163.com</li>
+  </div>
+</footer>
+ <script src="js/jquery-1.11.1.min.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src="js/unslider.min.js"></script>
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

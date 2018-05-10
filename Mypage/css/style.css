@@ -1,0 +1,315 @@
+body {
+  background: #888;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+h2 {
+  color: #8b8682;
+  font-weight: bold;
+  text-align: center;
+}
+#banner .container,
+main header,
+#portfolio .grid,
+footer #contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+hr.star-bright,
+hr.star-dark {
+  margin: 40px auto 30px;
+  padding: 0;
+  max-width: 500px;
+  border: 0;
+  border-top: solid 3px;
+  text-align: center;
+  color: #fff;
+}
+hr.star-dark {
+  color: #adadad;
+}
+
+/*导航栏样式*/
+#banner {
+  background-color: #eeb4b4 !important;
+  height: 80px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-color: #cd9b9b;
+}
+.navbar-brand {
+  font-size: 28px;
+  margin: 10px auto;
+}
+/*a:hover,a:focus{
+    color:#592059;
+  }*/
+#banner .container {
+  width: 95%;
+  max-width: 1024px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  margin: 15px auto 2px auto;
+  font-size: 18px;
+  background: #eeb4b4;
+  transition: all 0.3s;
+}
+
+.nav > li {
+  height: 100%;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: inline-flex;
+}
+.nav > li a {
+  color: #ffffff;
+  padding: 8px 25px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.nav > li a:hover {
+  color: #722872;
+  background: #bbb;
+  -webkit-box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.navbar-toggle {
+  margin: 20px 0px;
+}
+
+/*个人信息部分*/
+main>*{
+  max-width: 1024px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#top {
+  height: 75px;
+  display: block;
+}
+main header {
+  background: #adadad;
+  color: #fff;
+  text-align: right;
+  padding: 70px 10% 50px;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+
+main header img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin: 30px 0 10px 0;
+  max-width: 80%;
+  height: 250px;
+  width: 250px;
+}
+main header .intro-text {
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+main header .intro-text .skills {
+  font-size: 1.15em;
+}
+#portfolio .grid {
+  padding: 0;
+  max-width: 90%;
+  list-style: none;
+  margin-top: 20px;
+}
+#portfolio .grid li {
+  margin: 20px;
+  max-width: 600px;
+}
+
+#portfolio img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.another {
+  text-align: right;
+}
+/*作品部分*/
+main section {
+  background: #eee;
+  padding: 40px 0;
+}
+main section#activity > div {
+  margin: 0px auto;
+}
+.another {
+  color: #8b6969;
+}
+/* 页脚部分 */
+footer {
+  margin: 0 auto;
+  padding: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #cdc9c9;
+}
+.contact li {
+  list-style: none;
+  display: inline-box;
+  text-align: justify;
+  margin: 2px;
+}
+.fa {
+  font-size: 20px;
+  margin: 5px 8px;
+  color: #8b8682;
+}
+/*小屏样式*/
+@media (max-width: 768px) {
+  nav {
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    width: 120%;
+  }
+  nav .active a {
+    color: #eeb4b4;
+    background: #bbb;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  }
+}
+/*大屏样式*/
+@media (min-width: 1023px) {
+  main header {
+    padding: 50px 30px;
+  }
+  main header .intro-text {
+    text-align: center;
+    width: 610px;
+  }
+  #portfolio .grid li {
+    max-width: 420px;
+  }
+}
+/* 图片轮播样式 */
+
+#activity *{
+  margin:0;
+  padding:0;
+}
+#activity h2{
+  text-align: center;
+}
+.star-dark{
+  margin:40px auto !important;
+}
+address, cite, dfn, em, var {
+  font-style: normal;
+}
+ul .slider-item{
+  list-style: none;
+  border:5px solid #8B8378;
+  border-radius: 10px;
+}
+.banner {
+  position: relative;
+  overflow: auto;
+  text-align: center;
+  width: 610px;
+  margin: 0 auto;
+}
+.banner .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  z-index: 3;
+  color:#fff;
+}
+.banner .dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0.4;
+}
+.banner .dots li.active {
+  background: #fff;
+  opacity: 1;
+}
+.banner .arrow {
+  position: absolute;
+  width: 20px;
+  height: 37px;
+  top: 50%;
+  margin-top: -18px;
+  overflow: hidden;
+  z-index: 2;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.banner #al {
+  left: 15px;
+}
+.banner #ar {
+  right: 15px;
+}
+.banner ul {
+  z-index: 1;
+  width: 600%;
+  overflow: hidden;
+}
+.banner ul .slider-item {
+  width: 640px;
+  float: left;
+  height: 480px;
+  position: relative;
+  overflow: hidden;
+}
+.banner ul .slider-item .slider-title {
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 610px;
+  max-height: 46px;
+  padding: 15px;
+  text-align: left;
+  line-height: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.9));
+}
+.banner .progress {
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 25%;
+  height:10px;
+  min-height: 2px;
+  overflow: hidden;
+  z-index: 2;
+  background: #CDC5BF;
+}
