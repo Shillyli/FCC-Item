@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Timer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container">
+  <h1 class="text-center">Pomodoro Clock</h1>
+  <div class="row controls text-center">
+    <div class="col-xs-6">
+      <p class="text-center">Break length</p>
+    </div>
+    <div class="col-xs-6">
+      <p class="text-center">Session length</p>
+    </div>
+    <div class="col-xs-2">
+      <button class="btn btn-block btn-default" id="debreak">-</button>
+    </div>
+    <div class="col-xs-2">
+      <p class="break">5</p>
+    </div>
+    <div class="col-xs-2">
+      <button class="btn btn-block btn-default" id='inbreak'>+</button>
+    </div>
+    <div class="col-xs-2">
+      <button class="btn btn-block btn-default" id="desession">-</button>
+    </div>
+    <div class="col-xs-2">
+      <p class="session">25</p>
+    </div>
+    <div class="col-xs-2">
+      <button class="btn btn-block btn-default" id="insession">+</button>
+    </div>
+    <div class="timer col-xs-8 col-xs-offset-1">
+      <button id="timerButton" class="btn btn-block btn-default">
+        <p class='clock' id='breSes'>Session!</p>
+        <p class='clock' id="timer">25:00</p>
+      </button>
+    </div>
+    <div class="Button">
+      <button class="btn btn-block btn-default">Reset </button>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

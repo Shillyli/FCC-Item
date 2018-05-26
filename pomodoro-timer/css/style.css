@@ -1,0 +1,36 @@
+@import url(http://fonts.font.im/css?family=Lobster);
+.container{
+  width:400px;
+  border:1px solid;
+  border-radius:10px;
+  background-color:#FFC1C1;
+  margin-top:50px;
+}
+body{
+  background-color:#C1FFC1;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  font-size:40px;
+}
+p{
+  font-size:18px;
+}
+#timerButton{
+  height:300px;
+  width:300px;
+  margin:30px auto;
+  border-radius:150px;
+  outline:none;
+}
+.clock{
+   font-size:35px;
+  font-family: 'Lobster', cursive;
+}
+.Button{
+  font-size:25px;
+  font-family: 'Lobster', cursive;
+  width:100px;
+  margin:20px auto;
+
+}
